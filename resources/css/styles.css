@@ -37,7 +37,7 @@ text-decoration: underline;
 color: seashell;
 }
 
-.content {
+.intro {
 position: relative;
 top: 69px;
 display: flex;
@@ -52,13 +52,21 @@ background-image: url(../images/background.jpg);
 
 .layer {
 display: flex;
-height: 180px;
+height: 140px;
 flex-direction: column;
-flex-wrap: wrap;
 position: absolute;
 top: 325px;
 align-items: center;
 justify-content: center;
 background-color: black;
 position: relative;
+}
+
+.layer h4 {
+margin-top: -10px;
+}
+
+.offers {
+position: absolute;
+text-align: center;
 }
