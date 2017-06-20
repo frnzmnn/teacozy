@@ -74,3 +74,22 @@ width: 1000px;
 text-align: center;
 padding-top: 90px;
 }
+
+.teaspecials {
+width: 1000px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.teaspecials img {
+height: 200px;
+width: 300px;
+margin: 0px 10px;
+}
+
+.details {
+display: flex;
+flex-direction: column;
+}
