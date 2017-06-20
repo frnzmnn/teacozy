@@ -93,3 +93,30 @@ margin: 0px 10px;
 display: flex;
 flex-direction: column;
 }
+
+.details h4 {
+margin-top: 10px;
+}
+
+.locations {
+height: 500px;
+margin-top: 100px;
+z-index: 1;
+width: 1200px;
+background-image: url(../images/locations.jpg);
+}
+
+.locations h2 {
+padding-top: 40px;
+}
+
+.shops {
+display: flex;
+justify-content: center;
+}
+
+.city {
+background-color: black;
+margin: 15px 20px;
+width: 300px;
+}
